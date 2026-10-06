@@ -1,0 +1,31 @@
+# Place this file in the PUBLIC releases repo at: .github/workflows/close-prs.yml
+#
+# This repo is a download-only mirror of signed release APKs; it does not accept
+# contributions. This workflow politely comments on and immediately closes any
+# pull request someone opens.
+#
+# It uses `pull_request_target` so the built-in GITHUB_TOKEN has write access
+# even for PRs opened from forks. It never checks out or runs PR code, so there
+# is no code-execution risk from untrusted contributions.
+name: Auto-close pull requests
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  close:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comment and close
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh pr comment "$PR" --repo "$REPO" --body \
+            "Thanks for your interest! This repository is a **download-only mirror** of signed release APKs and does not accept pull requests. The source code is maintained privately, so this PR is being closed automatically. For questions, contact mobilesafeapps@gmail.com."
+          gh pr close "$PR" --repo "$REPO"
