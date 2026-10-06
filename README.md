@@ -14,6 +14,24 @@ from unknown sources.
 
 Each release asset is named `eMRTD-Lab-<version>.apk`.
 
+Installing a new APK over an existing install keeps your data, as long as it is
+the same signed build (it always is, for official releases here).
+
+## Automatic updates (Obtainium)
+
+Since this app is distributed outside Google Play, it does not auto-update on its
+own. The easiest way to get update notifications and one-tap installs is
+[**Obtainium**](https://github.com/ImranR98/Obtainium) — an open-source app that
+tracks GitHub releases:
+
+1. Install Obtainium.
+2. Add an app and paste this repository's URL:
+   `https://github.com/MobileSafeAppsTeam/eMRTD-Lab-releases`
+3. Obtainium will notify you of new releases and install them for you.
+
+You can also tap **Check for updates** inside the app (About dialog): it checks
+this repo and points you to the latest release.
+
 ## What it does
 
 - Emulates an eMRTD / CIE contactless chip over Android HCE (Host Card Emulation).
