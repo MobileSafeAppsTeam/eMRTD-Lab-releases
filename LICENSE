@@ -1,0 +1,51 @@
+eMRTD Lab — Proprietary Software License
+Copyright (c) 2026 Mobile Safe Apps. All rights reserved.
+
+This repository distributes the compiled application "eMRTD Lab"
+(the "Software") as a free download for evaluation and testing purposes.
+The Software, including its source code, design, and all related materials,
+is proprietary and protected by copyright and other intellectual property laws.
+
+1. Grant
+   You are granted a personal, non-exclusive, non-transferable, revocable
+   license to download and install the Software on devices you own or control,
+   solely to evaluate and test it. No other rights are granted.
+
+2. Restrictions
+   You may NOT, in whole or in part:
+   (a) copy, publish, mirror, or redistribute the Software or its APK;
+   (b) sell, rent, lease, sublicense, or otherwise commercialize it;
+   (c) decompile, disassemble, reverse-engineer, or attempt to derive the
+       source code, except to the extent such restriction is expressly
+       prohibited by applicable law;
+   (d) modify, adapt, translate, or create derivative works;
+   (e) remove or alter any copyright, trademark, or proprietary notices;
+   (f) circumvent, disable, or tamper with any licensing, activation, or
+       feature-gating mechanism (including the Pro/Business license system).
+
+3. Paid features
+   Certain features are unlocked by a paid license key. Such keys are issued
+   per purchase and may not be shared, resold, or distributed.
+
+4. Intended use
+   The Software is a developer and QA testing tool for NFC electronic-identity
+   protocols. It is not affiliated with, endorsed by, or connected to any
+   government or document-issuing authority. You are solely responsible for
+   using it lawfully and only with documents and credentials you are authorized
+   to test.
+
+5. No warranty
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+6. Limitation of liability
+   IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+   OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR
+   THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+7. Termination
+   This license terminates automatically if you breach any of its terms. Upon
+   termination you must stop using and delete all copies of the Software.
+
+Contact: mobilesafeapps@gmail.com
